@@ -4,9 +4,6 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-.c-attribution { font-size: 11px; text-align: center; }
-.c-attribution__link { color: hsl(228, 45%, 44%); }
-
 .page {
     background-color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
@@ -159,10 +156,6 @@ html {
     opacity: 0.75;
 }
 
-.c-footer {
-    display: block;
-}
-
 @media screen
   and (min-device-width: 23.4375rem) and
   (max-device-width: 43.6875rem) {
@@ -170,7 +163,7 @@ html {
     .l-wrapper {
         width: auto;
         height: auto;
-        margin: 4.5rem 2rem 3.9375rem 2rem;
+        margin: 4.5rem 2rem 3.875rem 2rem;
     }
 
     .l-container {
@@ -200,7 +193,7 @@ html {
 
     .l-wrapper {
         width: 39.6875rem;
-        margin: 10.1875rem auto 9.375rem auto;
+        margin: 10.1875rem auto 10.125rem auto;
     }
 
     .l-container {
