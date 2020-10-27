@@ -7,14 +7,14 @@ html {
 .page {
     background-color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
-    margin: 0px;
+    margin: 0;
 }
 
 .l-wrapper {
-    width: 311px;
+    width: 19.4375rem;
     height: auto;
-    margin: 72px auto 63px auto;
-    border-radius: 5px;
+    margin: 4.5rem auto 3.9375rem auto;
+    border-radius: 0.3125rem;
 }
 
 .l-container {
@@ -23,13 +23,13 @@ html {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    border-radius: 5px;
-    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 0.3125rem;
+    box-shadow: 0rem 0.9375rem 1.875rem rgba(0, 81, 171, 0.148847);
 }
 
 .c-card {
     box-sizing: border-box;
-    padding: 24px;
+    padding: 1.5rem;
     margin: 0 0;
 }
 
@@ -157,7 +157,7 @@ html {
 }
 
 .c-footer { display: block;	}
-.c-attribution { font-size: 11px; text-align: center; }
+.c-attribution { font-size: 0.6875rem; text-align: center; }
 .c-attribution__link { color: hsl(228, 45%, 44%); }
 
 @media screen
@@ -167,7 +167,7 @@ html {
     .l-wrapper {
         width: auto;
         height: auto;
-        margin: 4.5rem 2rem 62px 2rem;
+        margin: 4.5rem 2rem 3.875rem 2rem;
     }
 
     .l-container {
@@ -197,7 +197,7 @@ html {
 
     .l-wrapper {
         width: 39.6875rem;
-        margin: 10.1875rem auto 139px auto;
+        margin: 10.1875rem auto 8.6875rem auto;
     }
 
     .l-container {
@@ -209,7 +209,7 @@ html {
     }
 
     .c-card {
-        padding: 40px;
+        padding: 2.5rem;
     }
 
     .c-card--white {
@@ -220,20 +220,20 @@ html {
     .c-card--prm-clr {
         width: 50%;
         border-radius: 0rem 0rem 0rem 0.5rem;
-        padding-bottom: 39px;
+        padding-bottom: 2.4375rem;
     }
 
     .c-card--prm-clr-alt {
         width: 50%;
         border-radius: 0rem 0rem 0.5rem 0rem;
-        padding-bottom: 39px;
+        padding-bottom: 2.4375rem;
     }
 
     .c-card__title--lg {
-        margin: 0px 0px 24px 0px;
-        letter-spacing: -0.3px;
-        line-height: 28px;
-        font-size: 24px;
+        margin: 0rem 0rem 1.5rem 0rem;
+        letter-spacing: -0.0187rem;
+        line-height: 1.75rem;
+        font-size: 1.5rem;
         font-weight: 700;
     }
 
