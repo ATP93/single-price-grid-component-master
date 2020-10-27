@@ -160,9 +160,9 @@ html {
 .c-attribution { font-size: 0.6875rem; text-align: center; }
 .c-attribution__link { color: hsl(228, 45%, 44%); }
 
-@media screen
-  and (min-device-width: 23.4375rem) and
-  (max-device-width: 43.6875rem) {
+@media only screen
+  and (min-width: 23.4375rem) and
+  (max-width: 43.6875rem) {
 
     .l-wrapper {
         width: auto;
@@ -192,8 +192,8 @@ html {
 }
 
 
-@media screen
-  and (min-device-width: 43.75rem) {
+@media only screen
+  and (min-width: 43.75rem) {
 
     .l-wrapper {
         width: 39.6875rem;
