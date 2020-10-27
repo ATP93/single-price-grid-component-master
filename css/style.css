@@ -32,12 +32,12 @@ html {
 
 .c-card {
     box-sizing: border-box;
-    padding: 24px;
+    padding: 1.5rem;
     margin: 0 0;
 }
 
 .c-card--white {
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 0.3125rem 0.3125rem 0rem 0rem;
     background: white;
     color: hsl(218, 22%, 67%);
 }
@@ -50,7 +50,7 @@ html {
 .c-card--prm-clr-alt {
     background: hsl(179, 48%, 52%);
     color: whitesmoke;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0rem 0rem 0.3125rem 0.3125rem;
 }
 
 .c-card__title--prm-clr {
@@ -62,64 +62,64 @@ html {
 }
 
 .c-card__title--lg {
-    margin: 4px 0px 24px 0px;
-    letter-spacing: -0.25px;
-    line-height: 23px;
-    font-size: 20px;
+    margin: 0.25rem 0rem 1.5rem 0rem;
+    letter-spacing: -0.0156rem;
+    line-height: 1.4375rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
 .c-card__title--md {
-    margin: 0px 0px 18px 0px;
-    letter-spacing: -0.22px;
-    line-height: 21px;
-    font-size: 18px;
+    margin: 0rem 0rem 1.125rem 0rem;
+    letter-spacing: -0.0138rem;
+    line-height: 1.3125rem;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
 .c-card__title--sm {
-    margin: 8px 0px 16px 0px;
-    letter-spacing: -0.19px;
-    line-height: 20px;
-    font-size: 15px;
+    margin: 0.5rem 0rem 1rem 0rem;
+    letter-spacing: -0.0119rem;
+    line-height: 1.25rem;
+    font-size: 0.9375rem;
     font-weight: 700;
 }
 
 .c-card__txt--md {
-    margin: 0px 0px 8px 0px;
-    letter-spacing: -0.175px;
-    font-size: 14px;
-    line-height: 26px;
+    margin: 0rem 0rem 0.5rem 0rem;
+    letter-spacing: -0.0109rem;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
     font-weight: 400;
 }
 
 .c-card__txt--lg {
-    margin: 0px 0px 2px 0px;
-    letter-spacing: -0.2px;
-    font-size: 16px;
-    line-height: 26px;
+    margin: 0rem 0rem 0.125rem 0rem;
+    letter-spacing: -0.0125rem;
+    font-size: 1rem;
+    line-height: 1.625rem;
     font-weight: 400;
 }
 
 .c-price {
-    margin: 8px 0px 4px 0px;
+    margin: 0.5rem 0rem 0.25rem 0rem;
     display: flex;
 }
 
 .c-price__amount {
-    margin-right: 12px;
+    margin-right: 0.75rem;
     font-weight: 700;
-    font-size: 32px;
-    letter-spacing: -0.4px;
-    line-height: 37px;
+    font-size: 2rem;
+    letter-spacing: -0.025rem;
+    line-height: 2.3125rem;
 }
 
 .c-price__period {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
-    font-size: 16px;
-    letter-spacing: -0.2px;
-    line-height: 26px;
+    font-size: 1rem;
+    letter-spacing: -0.0125rem;
+    line-height: 1.625rem;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -128,16 +128,16 @@ html {
     display: block;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    line-height: 19px;
-    letter-spacing: -0.2px;
+    line-height: 1.1875rem;
+    letter-spacing: -0.0125rem;
     background:  hsl(71, 73%, 54%);
     color: white;
-    padding: 15px 12px 14px 12px;
-    margin: 26px 0px 0px 0px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
-    border-radius: 5px;
+    padding: 0.9375rem 0.75rem 0.875rem 0.75rem;
+    margin: 1.625rem 0rem 0rem 0rem;
+    box-shadow: 0rem 0.625rem 0.625rem rgba(0, 0, 0, 0.0973011);
+    border-radius: 0.3125rem;
 }
 
 .c-btn:hover {
@@ -146,14 +146,14 @@ html {
 
 .l-list {
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0rem;
     margin: 0;
 }
 
 .l-list__item {
-    letter-spacing: -0.175px;
-    font-size: 14px;
-    line-height: 20px;
+    letter-spacing: -0.0109rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     font-weight: 400;
     mix-blend-mode: normal;
     opacity: 0.75;
@@ -164,13 +164,13 @@ html {
 }
 
 @media screen
-  and (min-device-width: 375px) and
-  (max-device-width: 699px) {
+  and (min-device-width: 23.4375rem) and
+  (max-device-width: 43.6875rem) {
 
     .l-wrapper {
         width: auto;
         height: auto;
-        margin: 72px 32px 63px 32px;
+        margin: 4.5rem 2rem 3.9375rem 2rem;
     }
 
     .l-container {
@@ -196,11 +196,11 @@ html {
 
 
 @media screen
-  and (min-device-width: 700px) {
+  and (min-device-width: 43.75rem) {
 
     .l-wrapper {
-        width: 635px;
-        margin: 163px auto 150px auto;
+        width: 39.6875rem;
+        margin: 10.1875rem auto 9.375rem auto;
     }
 
     .l-container {
@@ -217,11 +217,11 @@ html {
 
     .c-card--prm-clr {
         width: 50%;
-        border-radius: 0px 0px 0px 5px;
+        border-radius: 0rem 0rem 0rem 0.3125rem;
     }
 
     .c-card--prm-clr-alt {
         width: 50%;
-        border-radius: 0px 0px 5px 0px;
+        border-radius: 0rem 0rem 0.3125rem 0rem;
     }
 }
