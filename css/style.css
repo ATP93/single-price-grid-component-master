@@ -29,7 +29,7 @@ html {
 
 .c-card {
     box-sizing: border-box;
-    padding: 1.5rem;
+    padding: 24px;
     margin: 0 0;
 }
 
@@ -156,6 +156,10 @@ html {
     opacity: 0.75;
 }
 
+.c-footer { display: block;	}
+.c-attribution { font-size: 11px; text-align: center; }
+.c-attribution__link { color: hsl(228, 45%, 44%); }
+
 @media screen
   and (min-device-width: 23.4375rem) and
   (max-device-width: 43.6875rem) {
@@ -163,7 +167,7 @@ html {
     .l-wrapper {
         width: auto;
         height: auto;
-        margin: 4.5rem 2rem 3.875rem 2rem;
+        margin: 4.5rem 2rem 62px 2rem;
     }
 
     .l-container {
@@ -193,7 +197,7 @@ html {
 
     .l-wrapper {
         width: 39.6875rem;
-        margin: 10.1875rem auto 10.125rem auto;
+        margin: 10.1875rem auto 139px auto;
     }
 
     .l-container {
@@ -204,17 +208,48 @@ html {
         align-items: stretch;
     }
 
+    .c-card {
+        padding: 40px;
+    }
+
     .c-card--white {
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
         width: 100%;
     }
 
     .c-card--prm-clr {
         width: 50%;
-        border-radius: 0rem 0rem 0rem 0.3125rem;
+        border-radius: 0rem 0rem 0rem 0.5rem;
+        padding-bottom: 39px;
     }
 
     .c-card--prm-clr-alt {
         width: 50%;
-        border-radius: 0rem 0rem 0.3125rem 0rem;
+        border-radius: 0rem 0rem 0.5rem 0rem;
+        padding-bottom: 39px;
+    }
+
+    .c-card__title--lg {
+        margin: 0px 0px 24px 0px;
+        letter-spacing: -0.3px;
+        line-height: 28px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .c-card__title--sm {
+        margin: 0rem 0rem 0.6875rem 0rem;
+        letter-spacing: -0.0141rem;
+        line-height: 1.3125rem;
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+
+    .c-card__txt--md {
+        margin: 0;
+        letter-spacing: -0.0125rem;
+        font-size: 1rem;
+        line-height: 1.625rem;
+        font-weight: 400;
     }
 }
